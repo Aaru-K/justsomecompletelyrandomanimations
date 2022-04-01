@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: 29px;
+    font-weight: 900;
+    background-color: rgb(255, 251, 246);
+}
+div{
+    text-align: center;
+    margin-top: 250px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px #ccc7c7;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+div:hover{
+    margin-left: 300px;
+    position: relative;
+    animation: dancing 0.005s infinite;
+    animation-play-state: running;
+}
+@keyframes dancing{
+    from{
+        top: 5px;
+    }
+    to{
+        top: 50px;
+    }
+    0%{
+        content: "Red";
+        color: red;
+    }
+     10%{
+        content: "Yellow";
+        color: yellow;
+    }
+    
+     20%{
+        content: "Pink";
+        color: pink;
+    }
+    
+     30%{
+        content: "Black";
+        color: black;
+    }
+    
+     40%{
+        content: "Violet";
+        color: #ee82ee;
+    }
+    
+     50%{
+        content: "Orange";
+        color: orange;
+    }
+    
+     60%{
+        content: "Green";
+        color: green;
+    }
+    
+     70%{
+        content: "Dark Magenta";
+        color: #8b008b;
+    }
+    
+     80%{
+        content: "Purple";
+        color: #800080;
+    }
+    
+     90%{
+        content: "Indigo";
+        color: #4b0082;
+    }
+    
+     100%{
+        content: "Lime Green";
+        color: #32cd32;
+    }
+}
+
